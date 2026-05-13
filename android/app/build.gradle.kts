@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.odoo_app_flutter"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 36
     ndkVersion = "27.0.12077973"
 
     compileOptions {
@@ -22,7 +22,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.odoo_app_flutter"
-        minSdk = 21
+        minSdk = 23
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
