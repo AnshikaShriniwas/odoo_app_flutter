@@ -39,8 +39,7 @@ class _OdooWebViewState extends State<OdooWebView> {
   double _progress = 0;
 
   static const String _url =
-      "https://odoo-o3ioulxa887.forge.zehntech.com/web/login?redirect=%2Fodoo%3F";
-  // "https://odoo-ouxkciyri50.forge.zehntech.com/web/login?redirect=%2Fodoo%3F"; // Actual URL
+      "https://odoo-ojetrsqik87.forge.zehntech.com/web/login?redirect=%2Fodoo%3F"; // Actual URL
   // "https://110447128-19-0-all.runbot160.odoo.com/web/login";
   // "https://runbot299.odoo.com/runbot/static/build/110373506-19-0/logs/build/html/";
   // "https://110373505-19-0-design-theme.runbot256.odoo.com/";
@@ -119,6 +118,9 @@ class _OdooWebViewState extends State<OdooWebView> {
                     supportZoom: false,
                     builtInZoomControls: false,
                     displayZoomControls: false,
+                    minimumZoomScale: 1.0,
+                    maximumZoomScale: 1.0,
+                    textZoom: 100,
                     cacheEnabled: true,
                   ),
                   onWebViewCreated: (controller) {
